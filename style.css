@@ -8,15 +8,7 @@
     --shadow: 0 4px 15px rgba(255, 182, 193, 0.2);
 }
 
-/* ตั้งค่าพื้นฐานสำหรับหัวข้อทั้งหมด */
-h1, h2, h3, h4 {
-    font-family: 'Prompt', sans-serif; /* เปลี่ยนฟอนต์ */
-    color: #444;                     /* เปลี่ยนสีหลักของหัวข้อ */
-    margin-bottom: 10px;             /* เพิ่มระยะห่างด้านล่าง */
-}
 
-h3 { font-size: 1.25rem; }          /* ปรับขนาด h3 หลัก */
-h4 { font-size: 1.1rem; }           /* ปรับขนาด h4 หลัก */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Sarabun', sans-serif; background-color: var(--bg-color); color: var(--text); }
@@ -74,7 +66,7 @@ body { font-family: 'Sarabun', sans-serif; background-color: var(--bg-color); co
     color: white;
 }
 .avatar { 
-    width: 150px; height: 150px; margin: 0 auto 20px; 
+    width: 250px; height: 250px; margin: 0 auto 20px; 
     border-radius: 50%; border: 5px solid white; overflow: hidden; 
     box-shadow: var(--shadow); 
 }
